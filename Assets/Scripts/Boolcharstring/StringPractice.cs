@@ -5,9 +5,8 @@ public class StringPractice : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        string B = "홀수";
-
-        const int A = 3;
-        Debug.Log($"{A} 은(는) {B} ");
+        int number = 3; //int형 변수 number선언하고 3으로 초기화한다
+        string result = "홀수"; //string형 변수 result 선언하고 "홀수"로 초기화
+        Debug.Log($"{number} 은(는) {result} 입니다");
     }
 }
